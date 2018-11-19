@@ -35,7 +35,9 @@ python train.py [-h] [--save_dir SAVE_DIR] [--arch ARCH]
 
 ### Examples
 The following will train a vgg model on the GPU:
+``` python
 python train.py flowers --arch VGG --gpu 
+```
 
 
 ## Usage
@@ -54,5 +56,7 @@ python predict.py  [-h] [--top_k TOP_K] [--gpu] image_path filepath
 
 ### Examples
 The following will return the most likely class using a VGG checkpoint executing on the GPU:
+```python
 python predict.py flowers/test/14/image_0814.jpg VGG_checkpoint.pth --gpu
+```
 
