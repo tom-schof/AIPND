@@ -1,7 +1,7 @@
-#AIPND Final Project
+# AIPND Final Project
 PyTorch transfer learning example developed as part of Udacity's AI Programming with Python Nanodegree program.
 
-##Getting Started
+## Getting Started
 Environment
 Python 3.6.5:
 
@@ -9,12 +9,13 @@ Numpy
 PyTorch
 TorchVision
 
-##Usage 
-
+## Usage 
+```python
 python train.py [-h] [--save_dir SAVE_DIR] [--arch ARCH]
                 [--learning_rate LEARNING_RATE]
                 [--hidden_features HIDDEN_FEATURES] [--gpu]
                 data_dir
+```
 
 ### positional arguments:
   data_dir              Directory used to locate source images
@@ -38,8 +39,9 @@ python train.py flowers --arch VGG --gpu
 
 
 ## Usage
+```python
 python predict.py  [-h] [--top_k TOP_K] [--gpu] image_path filepath
-                 
+ ```               
 
 ### positional arguments:
   image_path            Input image
